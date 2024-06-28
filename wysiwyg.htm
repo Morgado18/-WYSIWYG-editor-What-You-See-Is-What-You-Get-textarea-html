@@ -1,0 +1,13 @@
+
+{{-- CKEDITOR --}}
+<script src="https://cdn.ckeditor.com/ckeditor5/35.3.0/classic/ckeditor.js"></script>
+
+<textarea id="editor">Hello, World!</textarea>
+
+<script>
+    ClassicEditor
+        .create(document.querySelector('#editor'))
+        .catch(error => {
+            console.error(error);
+        });
+</script>
